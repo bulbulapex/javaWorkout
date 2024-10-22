@@ -51,7 +51,20 @@ public class JavaArray{
 			l++;
 		}while(l<=5);
 
-		
 
+
+
+		int[] arr = {5,6,3};
+		System.out.println(arraySum(arr));
+
+	}
+
+	//array element sum
+	public static int arraySum(int[] arr){
+		int sum = 0;
+		for(int i = 0; i < arr.length; i++){
+			sum = sum + arr[i];
+		}
+		return sum;
 	}
 }
