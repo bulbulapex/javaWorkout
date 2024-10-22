@@ -43,5 +43,15 @@ public class JavaArray{
 			System.out.println("Good Evening");
 		}
 
+		//basic do while loop
+
+		int l = 1;
+		do{
+			System.out.println(l);
+			l++;
+		}while(l<=5);
+
+		
+
 	}
 }
