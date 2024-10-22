@@ -13,9 +13,15 @@ public class JavaArray{
 		}
 
 		//Create a Java class named ‘SEU’ that has one integer variable. Create an object of that same class where you can access the variable data through object.
+		/*
 		SUE obj1 = new SUE();
 		obj1.number = 10;
 		System.out.println(obj1.number);
+		*/
+
+		//create object and initialize variable into class
+		SUE obj1 = new SUE(10, "Bulbul Ahammed", "2023200010003");
+		obj1.printString();
 
 	}
 }
