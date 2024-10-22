@@ -11,5 +11,11 @@ public class JavaArray{
 		for(int i = 1; i <= 10; i++){
 			System.out.println(i);
 		}
+
+		//Create a Java class named ‘SEU’ that has one integer variable. Create an object of that same class where you can access the variable data through object.
+		SUE obj1 = new SUE();
+		obj1.number = 10;
+		System.out.println(obj1.number);
+
 	}
 }
