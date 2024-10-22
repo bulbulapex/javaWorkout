@@ -56,6 +56,9 @@ public class JavaArray{
 
 		int[] arr = {5,6,3};
 		System.out.println(arraySum(arr));
+		System.out.println("--------find max -----");
+		int[] arr2 = {11,5,6,3,12};
+		System.out.println("The max number is: " + finMax(arr2));
 
 	}
 
@@ -67,4 +70,18 @@ public class JavaArray{
 		}
 		return sum;
 	}
+
+	//find the max number from the array element
+	 public static int finMax(int[] arr){
+	 	int max = arr[0];
+
+	 	for(int i = 0; i < arr.length; i++){
+	 		if(arr[i] > max){
+	 			max = arr[i];
+	 		}
+	 		
+	 	}
+	 	return max;
+
+	 }
 }
