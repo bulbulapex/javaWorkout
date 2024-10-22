@@ -23,5 +23,25 @@ public class JavaArray{
 		SUE obj1 = new SUE(10, "Bulbul Ahammed", "2023200010003");
 		obj1.printString();
 
+		//basic if -> else, if -> else if -> else
+		int a = 10;
+		int b = 20;
+
+		if(a > b){
+			System.out.println("A is big number: " + a);
+		}else{
+			System.out.println("B is big number: " + b);
+		}
+
+		int time = 22;
+
+		if(time < 10){
+			System.out.println("Good Morning");
+		}else if(time < 18){
+			System.out.println("Good Day");
+		}else{
+			System.out.println("Good Evening");
+		}
+
 	}
 }
