@@ -60,6 +60,9 @@ public class JavaArray{
 		int[] arr2 = {11,5,6,3,12};
 		System.out.println("The max number is: " + finMax(arr2));
 
+		Dog dog1 = new Dog("Tommy", "Cross");
+		dog1.bark();
+
 	}
 
 	//array element sum
