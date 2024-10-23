@@ -14,5 +14,18 @@ public class Main{
 		dessy.study();
 		dessy.sleep();
 		dessy.play();
+
+		Product prod1 = new Product();
+		prod1.displayProductInfo();
+		System.out.println("Product Total price is: " + prod1.calculateTotalValue());
+
+		Product prod2 = new Product();
+		prod2.product_id = 2;
+		prod2.name = "Ring";
+		prod2.price = 56.32;
+		prod2.quantity = 3;
+		prod2.description = "Special Product.";
+		prod2.displayProductInfo();
+		System.out.println("Product Total price is: " + prod2.calculateTotalValue());
 	}
 }
