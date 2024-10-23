@@ -27,5 +27,15 @@ public class Main{
 		prod2.description = "Special Product.";
 		prod2.displayProductInfo();
 		System.out.println("Product Total price is: " + prod2.calculateTotalValue());
+
+		//polymorphism overload method
+		NumberAdder added = new NumberAdder();
+		System.out.println("add function has two parameter: return int " + added.add(10, 9));
+		System.out.println("add function has three parameter: return int " + added.add(10, 9, 3));
+		System.out.println("add function has four parameter: return int " + added.add(10, 9, 3, 5));
+		System.out.println("add function has two parameter: return double " + added.add(10.5, 9.35));
+		System.out.println("add function has three parameter: return double " + added.add(10.12, 9.35, 3.2));
+		System.out.println("add function has four parameter: return double " + added.add(10.24, 9.23, 3.35, 5.52));
+
 	}
 }
