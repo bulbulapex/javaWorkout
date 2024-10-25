@@ -6,9 +6,18 @@ public class Shapes{
 		sq.draw();
 		Shape r = new Round();
 		r.draw();
+
+		//creating instance of Circle and Rectangle
+		ShapeAbstract circle = new Circle(5.3);
+		ShapeAbstract rectangle = new Rectangle(5, 6);
+
+		//using the calculateArea method
+		System.out.println("Area of the cirlce: " + circle.calculateArea());
+		System.out.println("Area of the rectangle: " + rectangle.calculateArea());
 	}
 }
 
+//it can also maintain another file
 class Shape{
 	public void draw(){
 		System.out.println("draw function into drawmain class");
