@@ -37,5 +37,12 @@ public class Main{
 		System.out.println("add function has three parameter: return double " + added.add(10.12, 9.35, 3.2));
 		System.out.println("add function has four parameter: return double " + added.add(10.24, 9.23, 3.35, 5.52));
 
+		BankAccount sa = new SavingsAccount();
+		BankAccount ca = new CurrentAccount();
+		sa.deposit();
+		sa.withdraw();
+		ca.deposit();
+		ca.withdraw();
+
 	}
 }
