@@ -55,5 +55,14 @@ public class Main{
         Pig myPig = new Pig();
         myPig.animalSound();
 
+
+        Spacecraft sc = new Spacecraft();
+        Airplane ap = new Airplane();
+        Helicopter hc = new Helicopter();
+
+        sc.fly_obj();
+        ap.fly_obj();
+        hc.fly_obj();
+
 	}
 }
