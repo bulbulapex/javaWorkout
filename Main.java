@@ -50,5 +50,10 @@ public class Main{
         current.withdraw(1500);
         current.displayBalance();
 
+        System.out.println("======implements class======");
+
+        Pig myPig = new Pig();
+        myPig.animalSound();
+
 	}
 }
